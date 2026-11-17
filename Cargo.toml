@@ -1,0 +1,14 @@
+[package]
+name = "bittorrent-client"
+version = "0.1.0"
+edition = "2021"
+description = "A BitTorrent client and seeder: bencode, metainfo, HTTP tracker, peer wire protocol"
+license = "MIT"
+
+[[bin]]
+name = "bt"
+path = "src/main.rs"
+
+[dependencies]
+sha1 = "0.10"
+ureq = "2"
